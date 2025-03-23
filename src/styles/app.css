@@ -1,0 +1,92 @@
+/* General Styles */
+.app-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Button Styles */
+  .button-container {
+    margin-bottom: 20px;
+  }
+  
+  .record-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .record-btn.start {
+    background: #28a745;
+    color: white;
+  }
+  
+  .record-btn.start:hover {
+    background: #218838;
+  }
+  
+  .record-btn.stop {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .record-btn.stop:hover {
+    background: #c82333;
+  }
+  
+  /* Language Selection */
+  .selection-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .from-language-selection,
+  .to-language-selection {
+    flex: 1;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+  }
+  
+  /* Text Display */
+  .text-display {
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recognized-text {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .translated-text {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
